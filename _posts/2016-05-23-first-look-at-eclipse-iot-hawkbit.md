@@ -2,12 +2,15 @@
 layout: post
 title:  "First look at Eclipse IOT Hawkbit"
 date:   2016-05-21T00:09:57+02:00
-categories: jekyll update
+categories: iot hawkbit
+excerpt_separator: <!--more-->
 ---
 
 # Introduction
 
-In this post I'm going to take a closer look at Hawkbit.
+In this post I'm going to take a closer look at Hawkbit. 
+
+<!--more-->
 
 # Getting started
 
@@ -36,7 +39,7 @@ MongoDB is used to store all software artifacts.
 - Start mongo db
 
 {% highlight shell %}
-cd /Users/ddewaele/Projects/iot/mongodb-osx-x86_64-3.0.12/bin
+cd ~/Projects/iot/mongodb-osx-x86_64-3.0.12/bin
 mkdir ../data-files
 ./mongod --dbpath ../data-files
 
@@ -80,6 +83,19 @@ rabbitmq-plugins enable rabbitmq_management
   ##########
               Starting broker... completed with 6 plugins.
 {% endhighlight %}
+
+
+You'll see that when Hawkbit starts, it will create
+
+2 exchanges
+
+- dmf.exchange
+- dmf.connector.deadletter
+
+2 queues
+
+- dmf_connector_deadletter_ttl
+- dmf_receiver
 
 
 ## Run the applications

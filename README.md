@@ -1,7 +1,7 @@
 #Introduction
 
 This blog can be seen on 
-Welcome to the sources of my jekyll based blog on [Hawkbit](https://projects.eclipse.org/proposals/hawkbit).
+Welcome to the sources of my jekyll based [hawkbit blog](ddewaele.github.io/hawkbit-blog) covering [Hawkbit](https://projects.eclipse.org/proposals/hawkbit).
 I'll be posting some docs / code samples here related to [Hawkbit](https://projects.eclipse.org/proposals/hawkbit).
 
 References
@@ -29,5 +29,5 @@ I've customized the theme a little bit :
 If you want to clone this blog and run it locally (for whatever reason), simply run
 
 ```
-bundle exec jekyll s  -c _config.yml,_localhost.yml --drafts
+bundle exec jekyll s  -c _config.yml,_localhost_config.yml --drafts
 ```

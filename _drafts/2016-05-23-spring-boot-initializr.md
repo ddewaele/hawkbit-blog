@@ -1,18 +1,23 @@
 ---
 layout: post
-title: Quickstart your SpringBoot with Spring Initializr
+title: Kickstart your SpringBoot with Spring Initializr
 description: "A quick overview of the excellent Spring Initializr CLI"
 modified: 2016-05-23
+categories: spring boot
 tags: [sample post]
+excerpt_separator: <!--more-->
 image:
   feature: abstract-3.jpg
   credit: ddewaele
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-#Introduction
+# Introduction
 
-Spring offers a [Spring Initializr](https://start.spring.io/) to bootstrap your application quickly
+Spring offers a [Spring Initializr](https://start.spring.io/) website to bootstrap your application quickly. What many people don't know is that it also offers a REST API that can be accessed using `curl` to kickstart your Spring Boot applications.
+
+<!--more-->
+
 The most simple way to use it is to do this :
 
 {% highlight shell %}
