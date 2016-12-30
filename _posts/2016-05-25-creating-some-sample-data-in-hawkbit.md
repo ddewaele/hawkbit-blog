@@ -32,7 +32,7 @@ We start with software module types and software modules
 
 ![]({{ site.url }}/assets/images/upload_mgmt.png)
 
-Hawkbit comes with a `SoftwareModuleTypeResourceClient` that we can use to create softwaremoduletypes
+Hawkbit comes with a `SoftwareModuleTypeResourceClient` that we can use to create softwaremoduletypes :
 
 ```java
 /**
